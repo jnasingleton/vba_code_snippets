@@ -1,2 +1,2 @@
 # vba_code_snippets
-VBA Code Snippets
+These are some VBA code snippets that I've created throughout my time working with Microsoft Excel/Access VBA. Most snippets are helpful functions currently not available. These snippets should be copy pasted into a VBA module in order for you to call them from a cell function or a workbook macro.
