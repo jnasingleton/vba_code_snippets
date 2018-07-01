@@ -13,18 +13,18 @@ End Sub
 
 Public Sub UnmergeWorkbookCells(Optional ByVal wb = ThisWorkbook)
 
-    Dim ws As Worksheet
+	Dim ws As Worksheet
 	For Each ws In wb.Worksheets
-        Call(UnmergeWorksheetCells(ws))
-    Next
+		Call(UnmergeWorksheetCells(ws))
+	Next
 
 End Sub
 
 Public Sub UnmergeAllWorkbookCells()
 
-    Dim wb As Workbook
-    For Each wb In Workbooks
-        Call(UnmergeWorkbookCells(wb))
-    Next
+	Dim wb As Workbook
+	For Each wb In Workbooks
+		Call(UnmergeWorkbookCells(wb))
+	Next
 
 End Sub
