@@ -1,4 +1,4 @@
-Public Sub doShowAll()
+Public Sub enable_UI()
 
 'Show all normal functionality
 ActiveWindow.DisplayGridlines = True
@@ -10,7 +10,7 @@ Application.DisplayFormulaBar = True
     
 End Sub
 
-Public Sub doNotShowAll()
+Public Sub disable_UI()
 
 'Do Not Show all normal functionality
 ActiveWindow.DisplayGridlines = False
